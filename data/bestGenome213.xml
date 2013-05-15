@@ -1,0 +1,26 @@
+<genome id="22832" species-id="106" age="1" fitness="1007.00" realfitness="1007.00" adaptable="False" modulated="False">
+  <neurons>
+    <neuron id="0" type="bias" activationFunction="NullFn" bias="0" layer="0" />
+    <neuron id="1" type="in" activationFunction="NullFn" bias="0" layer="0" />
+    <neuron id="2" type="in" activationFunction="NullFn" bias="0" layer="0" />
+    <neuron id="3" type="in" activationFunction="NullFn" bias="0" layer="0" />
+    <neuron id="4" type="in" activationFunction="NullFn" bias="0" layer="0" />
+    <neuron id="5" type="out" activationFunction="BipolarSigmoid" bias="0" layer="10" />
+    <neuron id="6" type="out" activationFunction="BipolarSigmoid" bias="0" layer="10" />
+  </neurons>
+  <modules />
+  <connections>
+    <connection innov-id="7" src-id="0" tgt-id="5" weight="-1.1801346279680729" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="8" src-id="1" tgt-id="5" weight="-1.187490115640685" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="9" src-id="2" tgt-id="5" weight="0.47655659727752209" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="10" src-id="3" tgt-id="5" weight="-0.38990912470035255" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="11" src-id="4" tgt-id="5" weight="0.86892195739783351" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="12" src-id="0" tgt-id="6" weight="-1.0754632065072656" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="13" src-id="1" tgt-id="6" weight="0.38255898091010748" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="14" src-id="2" tgt-id="6" weight="-1.2561358385719359" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="15" src-id="3" tgt-id="6" weight="-1.1470583357848228" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="16" src-id="4" tgt-id="6" weight="1.1539109928533435" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="103" src-id="5" tgt-id="5" weight="-1.4078593673184514" learningrate="0" A="0" B="0" C="0" D="0" />
+  </connections>
+  <behavior list="-0.0919343526951056,-0.0674716015651768,-0.0689878931532295,-0.0857208759165473,-0.0461007655700573,-0.0028395140803683,-0.034795330612073,-0.0947218080396323,-0.026419700511169,-0.0130062331571851,-0.0182827070682836,-0.0490206386914933,-0.00215482189256937,-0.0202232474258343, O0:1007 O1:0 O2:0 O3:0 O4:0 O5:0" />
+</genome>

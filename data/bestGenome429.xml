@@ -1,0 +1,49 @@
+<genome id="50907" species-id="2107" age="1" fitness="971.60" realfitness="971.60" adaptable="False" modulated="False">
+  <neurons>
+    <neuron id="0" type="bias" activationFunction="NullFn" bias="0" layer="0" />
+    <neuron id="1" type="in" activationFunction="NullFn" bias="0" layer="0" />
+    <neuron id="2" type="in" activationFunction="NullFn" bias="0" layer="0" />
+    <neuron id="3" type="in" activationFunction="NullFn" bias="0" layer="0" />
+    <neuron id="4" type="in" activationFunction="NullFn" bias="0" layer="0" />
+    <neuron id="5" type="in" activationFunction="NullFn" bias="0" layer="0" />
+    <neuron id="6" type="out" activationFunction="BipolarSigmoid" bias="0" layer="10" />
+    <neuron id="7" type="out" activationFunction="BipolarSigmoid" bias="0" layer="10" />
+    <neuron id="88" type="hid" activationFunction="BipolarSigmoid" bias="0" layer="5" />
+    <neuron id="432" type="hid" activationFunction="Sine" bias="0" layer="5" />
+    <neuron id="935" type="hid" activationFunction="Sine" bias="0" layer="5" />
+    <neuron id="1030" type="hid" activationFunction="Sine" bias="0" layer="7.5" />
+    <neuron id="1641" type="hid" activationFunction="BipolarSigmoid" bias="0" layer="5" />
+  </neurons>
+  <modules />
+  <connections>
+    <connection innov-id="8" src-id="0" tgt-id="6" weight="-1.048490272834897" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="9" src-id="1" tgt-id="6" weight="0.21230603707954288" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="10" src-id="2" tgt-id="6" weight="1.1447900645434856" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="11" src-id="3" tgt-id="6" weight="1.1068275449797511" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="12" src-id="4" tgt-id="6" weight="0.99439890822395682" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="13" src-id="5" tgt-id="6" weight="-0.18870199145749211" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="14" src-id="0" tgt-id="7" weight="1.3436693055555224" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="15" src-id="1" tgt-id="7" weight="-0.762486005667597" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="16" src-id="2" tgt-id="7" weight="0.8464772729203105" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="17" src-id="3" tgt-id="7" weight="0.18128265426494181" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="18" src-id="4" tgt-id="7" weight="1.1484785419888794" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="19" src-id="5" tgt-id="7" weight="-1.3830815590918064" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="89" src-id="2" tgt-id="88" weight="0.33948902674019338" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="90" src-id="88" tgt-id="7" weight="-0.69631598610430956" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="168" src-id="7" tgt-id="7" weight="1.404062972869724" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="288" src-id="88" tgt-id="88" weight="-0.19766994053497911" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="433" src-id="88" tgt-id="432" weight="-0.33881480433046818" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="434" src-id="432" tgt-id="88" weight="-0.29546173615381122" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="436" src-id="432" tgt-id="432" weight="0.75547627871856093" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="824" src-id="1" tgt-id="88" weight="0.22287832573056221" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="936" src-id="432" tgt-id="935" weight="-0.794759048614651" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="937" src-id="935" tgt-id="432" weight="-0.047729677520692348" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="1031" src-id="88" tgt-id="1030" weight="1.2946271100081503" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="1032" src-id="1030" tgt-id="7" weight="0.38436283869668841" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="1522" src-id="935" tgt-id="88" weight="-0.22781937976833433" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="1531" src-id="6" tgt-id="6" weight="0.025514354347251356" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="1642" src-id="432" tgt-id="1641" weight="1" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="1643" src-id="1641" tgt-id="935" weight="-1.1025838884525" learningrate="0" A="0" B="0" C="0" D="0" />
+  </connections>
+  <behavior list="-0.1,-0.1,-0.1,-0.1,-0.1,-0.1,-0.1,-0.1,-0.1,-0.1,-0.1,-0.1,-0.1,-0.1,-0.1,-0.1,-0.1,-0.1, O0:800 O1:85.8 O2:0 O3:0 O4:0 O5:0" />
+</genome>

@@ -1,0 +1,41 @@
+<genome id="13693" species-id="292" age="1" fitness="2.70" realfitness="2.70" adaptable="False" modulated="False">
+  <neurons>
+    <neuron id="0" type="bias" activationFunction="NullFn" bias="0" layer="0" />
+    <neuron id="1" type="in" activationFunction="NullFn" bias="0" layer="0" />
+    <neuron id="2" type="in" activationFunction="NullFn" bias="0" layer="0" />
+    <neuron id="3" type="in" activationFunction="NullFn" bias="0" layer="0" />
+    <neuron id="4" type="in" activationFunction="NullFn" bias="0" layer="0" />
+    <neuron id="5" type="in" activationFunction="NullFn" bias="0" layer="0" />
+    <neuron id="6" type="out" activationFunction="BipolarSigmoid" bias="0" layer="10" />
+    <neuron id="7" type="out" activationFunction="BipolarSigmoid" bias="0" layer="10" />
+    <neuron id="26" type="hid" activationFunction="BipolarSigmoid" bias="0" layer="5" />
+    <neuron id="116" type="hid" activationFunction="BipolarSigmoid" bias="0" layer="5" />
+    <neuron id="194" type="hid" activationFunction="Linear" bias="0" layer="5" />
+  </neurons>
+  <modules />
+  <connections>
+    <connection innov-id="8" src-id="0" tgt-id="6" weight="0.81355279823765159" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="9" src-id="1" tgt-id="6" weight="-0.50889980341307817" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="10" src-id="2" tgt-id="6" weight="1.3084895457141101" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="11" src-id="3" tgt-id="6" weight="-0.54674083180725574" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="12" src-id="4" tgt-id="6" weight="1.2280540701933207" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="13" src-id="5" tgt-id="6" weight="-0.50612393859773874" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="14" src-id="0" tgt-id="7" weight="0.45755515764467419" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="15" src-id="1" tgt-id="7" weight="-0.93494464969262481" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="16" src-id="2" tgt-id="7" weight="0.31442708331160252" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="17" src-id="3" tgt-id="7" weight="-1.4673785860650241" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="18" src-id="4" tgt-id="7" weight="0.32813375070691109" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="19" src-id="5" tgt-id="7" weight="0.0064082080498337746" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="27" src-id="2" tgt-id="26" weight="1.3155051272828131" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="28" src-id="26" tgt-id="7" weight="0.76257238201797017" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="61" src-id="0" tgt-id="26" weight="-0.32173969456925988" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="117" src-id="1" tgt-id="116" weight="1.1783299383707344" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="118" src-id="116" tgt-id="6" weight="-0.31974706728942692" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="157" src-id="7" tgt-id="6" weight="-0.24385445143561813" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="178" src-id="6" tgt-id="116" weight="0.20383663228712975" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="195" src-id="5" tgt-id="194" weight="0.99886251008138061" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="196" src-id="194" tgt-id="6" weight="-0.5399289349094033" learningrate="0" A="0" B="0" C="0" D="0" />
+    <connection innov-id="293" src-id="0" tgt-id="116" weight="-0.010445470502600075" learningrate="0" A="0" B="0" C="0" D="0" />
+  </connections>
+  <behavior list="-0.0463317310645798,-0.0235575016519494,-0.0463299212311463,-0.0185575032372901,-0.0445340707564501,-0.0153137691920441,-0.0443968905155475,-0.0126554566032691,-0.0208594990840047,-0.0115060765383278,-0.018776320399824,-0.0115872448535519,-0.01680268744463,-0.0114009833408874,-0.0135474833762028,-0.0122950967919246,-0.013255456625837,-0.0148376649548925, O0:0.352039423843172 O1:1 O2:0 O3:0 O4:0 O5:0" />
+</genome>
