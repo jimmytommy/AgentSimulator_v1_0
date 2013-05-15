@@ -1,5 +1,14 @@
 MultiAgent-HyperSharpNEAT Simulator Documentation
 
+This project was expanded by J.T. Glaze to examine the effect of direct communication between 
+heterogeneous agents in a multi-agent team. Two additional experiments were created for this
+project: a predator/prey simulation, and a modular movement simulation that required multiple
+robotic agents to move together as modules in a larger robotic meta-agent.
+
+This expansion required changes to the Main.cs, SimulatorExperiment.cs, Robot.cs, SimulatorObject.cs, 
+Substrate.cs, SubstrateDescription.cs, EvolutionAlgorithm.cs, and others, as well as the creation of 
+several new classes.
+
 MultiAgent-HyperSharpNEAT Simulator Now Including the Evolvable Substrate v1.0 C#,
 By David D'Ambrosio, Joel Lehman, and Sebastian Risi
 http://eplex.cs.ucf.edu
